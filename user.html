@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Horarios UNSA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>document.getElementsByTagName("html")[0].className += " js";</script>
+         <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/ejecucion.js"></script>
+        <script src="js/formulario.js?v=1.2"></script>
+        <link rel="stylesheet" href="assets/css/style.css" id="linkestilo2">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css?v=1.5" id="linkestilo">
+        
+    </head>
+    <body>
+        <header>
+            <a id="btlogin" href="reservas.html">
+                Mis reservas
+            </a>
+        </header>
+        <div id="userhor">
+            <div id="userform">
+                <h2>Reservar Horario</h2>
+                <div id="formulario">
+                <form id="formularioreserva">
+                    <label for="nombre">Curso:</label><br>
+                    <select name="curso" id="cursosdictados">
+                                    <option selected>Libre</option>
+                                    <option>Ecuaciones diferenciales Lab A</option>
+                                    <option>Ecuaciones diferenciales Lab B</option>
+                                    <option>Ecuaciones diferenciales A</option>
+                                    <option>Ecuaciones diferenciales B</option>
+                                </select><br>
+                    <label for="nombre">Aula:</label><br>
+                    <select name="aula">
+                                    <option value="104" selected>104</option>
+                                    <option value="205" >205</option>
+                                    <option value="301" >301</option>
+                                    <option value="302" >302</option>
+                                    <option value="303" >303</option>
+                                    <option value="304" >304</option>
+                                    <option value="305" >305</option>
+                                </select><br>
+                    <label for="tiempo">Hora inicio-fin:</label><br>
+                    <input name="tiempoi" type="time" required>
+                    <input name="tiempof" type="time" required><br>
+                    <label for="fecha">Fecha:</label><br>
+                    <input name="fecha" type="date" required>
+                    <label for="desc">Descripción:</label><br>
+                    <input name="desc" type="text" required>
+                    <input id="botonenv" type="submit" value="Reservar">
+                    <div id="respuestarins"></div>
+                </form>
+            </div>
+            </div>
+            <div id="cuerpo">
+                <h1>HORARIOS CS - UNSA</h1>
+                <div id="filtros">
+                    <div class="mid">
+                        <div class="cntr">
+                            <form id="actuaula">
+                                <label for="aula">Aula:</label>
+                                <select name="aula">
+                                    <option selected value="104">104</option>
+                                    <option value="205" >205</option>
+                                    <option value="301" >301</option>
+                                    <option value="302" >302</option>
+                                    <option value="303" >303</option>
+                                    <option value="304" >304</option>
+                                    <option value="305" >305</option>
+                                </select>
+                                <input class="botonenv" type="submit" value="Actualizar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div class="cntr">
+                            <form id="actuanio" method="post">
+                                <label for="fname">Año:</label>
+                                <select name="anio">
+                                    <option selected value="1">1ro</option>
+                                    <option value="2">2do</option>
+                                    <option value="3">3ro</option>
+                                    <option value="4">4to</option>
+                                    <option value="5">5to</option>
+                                </select>
+                                <input class="botonenv" type="submit" value="Actualizar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div class="cntr">
+                            <label for="semana">Semana:</label>
+                            <input type="date" id="semana" name="semana" min="2020-01-01">
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div class="cntr">
+                            <form id="actuaprop" method="post">
+                            <label for="fname">Propios:</label>
+                            <input class="botonenv" type="submit" value="Actualizar">
+                            </form>
+                        </div>
+                    </div>
+            </div>
+                <div id="horario">
+
+
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            
+        </footer>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

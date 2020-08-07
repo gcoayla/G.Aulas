@@ -1,0 +1,280 @@
+/* Colores */
+/*
+header #304F8C
+letras #5D6F80
+gris #F2F2F2
+fondo #A0C4F2
+footer #192A40
+*/
+
+/* Neutralidad */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F2F2F2;
+}
+/* H1 */
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #5D6F80;
+    margin-top: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* Header */
+header{
+    background-color: #192A40;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+}
+#btlogin{
+    float: right;
+    width: 15%;
+    color: #5D6F80;
+    border: 2px solid #5D6F80;
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#btlogin:hover{
+    cursor: pointer;
+    background-color: #DAE9F2;
+}
+/* Cuerpo */
+#userhor{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+#cuerpo{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+#userhor #cuerpo{
+    width: 60%;
+    float: left;
+}
+#userhor #horario{
+    width: 100%;
+}
+#userhor #filtros{
+    width: 100%;
+}
+#userhor h1{
+    font-size: 40px;
+}
+#userhor #formulario select{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #192A40;
+    background-image: linear-gradient(white, #F2F2F2);
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+/* userform */
+#userform{
+    width: 40%;
+    float: left;
+    padding-top: 70px;
+}
+#userform #formulario{
+    width: 100%;
+    border: 0px;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    overflow: hidden;
+    padding-top: 0px;
+}
+#fechal{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* login */
+#formulario{
+    width: 24%;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 1px solid #192A40;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    color: #192A40;
+    font-size: 20px;
+}
+#formulario label{
+}
+#formulario input{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #192A40;
+    background-image: linear-gradient(white, #F2F2F2);
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+#botonenv{
+    border: 1px solid #192A40;
+    margin-top: 40px;
+    display: block;
+}
+#botonenv:hover{
+    cursor: pointer;
+}
+#respuestalogin{
+    color:red;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+/* horario */
+#filtros{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.cntr{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%
+}
+.mid{
+    width: 50%;
+    float: left;
+    color: #5D6F80;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.mid label{
+    width: 15%;
+    margin-right: 5%;
+    float: left;
+    display: block;
+}
+.mid input{
+    border-radius: 15px;
+    border: 2px solid #192A40;
+    width: 30%;
+    background-color: white;
+    margin-left: 2%;
+    float: right;
+}
+.mid select{
+    border-radius: 15px;
+    border: 2px solid #192A40;
+    width: 45%;
+    padding-left: 3%;
+    background-color: white;
+    float: left;
+}
+.botonenv:hover{
+    cursor: pointer;
+}
+#horario{
+    width: 80%;
+    margin: 0 auto;
+}
+#semana{
+    width: 80%;
+    margin-left: 0;
+    text-align: center;
+}
+#respuestarins{
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+}
+/* reservabox */
+.reservabox{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #192A40;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.terce{
+    width: 25%;
+    float: left;
+}
+.bt-elim{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.bt-elim:hover{
+    cursor: pointer;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.reservabox p{
+    font-size: 16px;
+    color: black;
+}
+#titres{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+/* footer */
+footer{
+    background-color: #1A2026;
+    height: 30px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .mid{
+    width: 100%;
+    float: left;
+    color: #5D6F80;
+}
+    h1{
+        font-size: 40px;
+    }
+    #userhor #cuerpo{
+    width: 100%;
+    float: left;
+}
+    #userform{
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+}
+}

@@ -1,0 +1,95 @@
+rm-teo-a;Razonamiento Logico Matematico;1;1;A;teo;Raz L M
+lo-teo-a;Liderazgo y Oratoria;1;1;A;teo;Lid y O
+e-Prac-a;Estructuras Discretas;1;1;A;Prac;ED
+fc-Lab-b;Fundamentos de Computacion;1;1;B;Lab;Fund Comp
+mt-Prac-b;Metodologia del Trabajo;1;1;B;Prac;M Trab
+e-teo-b;Estructuras Discretas;1;1;B;teo;ED
+fc-Lab-a;Fundamentos de Computacion;1;1;A;Lab;Fund Comp
+e-Teo-a;Estructuras Discretas;1;1;A;Teo;ED
+rm-teo-b;Razonamiento Logico Matematico;1;1;B;teo;Raz L M
+i-teo-b;Ingles Tecnico l;1;1;B;teo;Ingles I
+lo-teo-b;Liderazgo y Oratoria;1;1;B;teo;Lid y O
+ii-teo-a;Ingles Tecnico I;1;1;A;teo;Ingles I
+mt-prac-a;Metodologia del Trabajo;1;1;A;prac;Met T.
+e-prac-b;Estructuras Discretas;1;1;B;prac;ED
+fc-teo-b;Fundamentos de Computacion;1;1;B;teo;Fund Comp
+ii-Prac-a;Ingles Tecnico I;1;1;A;Prac;Ingles I
+mp-prac-a;Metodologia del Trabajo;1;1;A;prac;Met T.
+ii-prac-b;Ingles Tecnico I;1;1;B;prac;Ingles I
+fc-teo-a;Fundamentos de Computacion;1;1;A;teo;Fund Comp
+a-prac-a;Arte Computacional;1;1;A;prac;Arte C.
+a-teo-a;Arte Computacional;1;1;A;teo;Arte C.
+a-prac-b;Arte Computacional;1;1;B;prac;Arte C.
+a-teo-b;Arte Computacional;1;1;B;teo;Arte C.
+dbp-teo-a;Desarrollo Basado en Plataformas;3;2;A;teo;DBP
+tii-teo-a;Trabajo Interdisciplinar I;3;2;A;teo;TI I
+itiii-teo-a;Ingles Tenico III;3;2;A;teo;Ingles III
+dbp-teo-b;Desarrollo Basado en Plataformas;3;2;B;teo;DBP
+ccii-teo-b;Ciencia de la Computacion II;3;2;B;teo;CC II
+tii-teo-b;Trabajo Interdisciplinar I;3;2;B;teo;TI I
+ccii-lab-a;Ciencia de la Computacion II;3;2;A;lab;CC II
+dbp-lab-b;Desarrollo Basado en Plataformas;3;2;B;lab;DBP
+c-teo-b;Ciudadania e interculturalidad;3;2;B;teo;Ciudadania
+cvv-teo-b;Calculo en Varias Variables;3;2;B;teo;Calculo VV
+c-teo-a;Ciudadania e interculturalidad;3;2;A;teo;Ciudadania
+dbp-lab-a;Desarrollo Basado en Plataformas;3;2;A;lab;DBP
+ac-teo-a;Arquitectura de Computadores;3;2;A;teo;Arq C
+ccii-teo-a;Ciencia de la Computacion II;3;2;A;teo;CC II
+cvv-teo-a;Calculo en Varias Variables;3;2;A;teo;Calculo VV
+ccii-lab-b;Ciencia de la Computacion II ;3;2;B;lab;CC II
+ccii-lab-c;Ciencia de la Computacion II;3;2;C;lab;CC II
+ac-lab-b;Arquitectura de Computadores;3;2;B;lab;Arq C
+itiii-teo-b;Ingles Tenico III;3;2;B;teo;Ingles III
+ac-lab-a;Arquitectura de Computadores;3;2;A;lab;Arq C
+aede-lab-b;Analisis Exploratorio de Datos Espaciales;5;3;B;lab;AEDE
+ed-teo-a;Ecuaciones Diferenciales;5;3;A;teo;ED
+ada-teo-a;Analisis y Diseno de Algoritmos;5;3;A;teo;ADA
+ada-lab-b;Analisis y Diseno de Algoritmos;5;3;B;lab;ADA
+aede-lab-a;Analisis Exploratorio de Datos Espaciales;5;3;A;lab;AEDE
+comp-teo-b;Compiladores;5;3;B;teo;Compiladores
+isi-teo-b;Ingenieria de Software I;5;3;B;teo;IS I
+isi-lab-a;Ingenieria de Software I;5;3;A;lab;IS I
+aede-teo-a;Analisis Exploratorio de Datos Espaciales;5;3;A;teo;AEDE
+isi-teo-a;Ingenieria de Software I;5;3;A;teo;IS I
+isi-lab-b;Ingenieria de Software I;5;3;B;lab;IS I
+ada-teo-b;Analisis y Diseno de Algoritmos;5;3;B;teo;ADA
+ada-lab-a;Analisis y Diseno de Algoritmos;5;3;A;lab;ADA
+comp-teo-a;Compiladores;5;3;A;teo;Compiladores
+ed-lab-b;Ecuaciones Diferenciales;5;3;B;lab;ED
+ed-lab-a;Ecuaciones Diferenciales;5;3;A;lab;ED
+ed-teo-b;Ecuaciones Diferenciales;5;3;B;teo;ED
+bdii-lab-b;Base de Datos II ;5;3;B;lab;BD II
+bdii-teo-a;Base de Datos II;5;3;A;teo;BD II
+bdii-teo-b;Base de Datos II;5;3;B;teo;BD II
+bdii-lab-a;Base de Datos II ;5;3;A;lab;BD II
+ia-teo-a;Inteligencia Artificial;7;4;A;teo;IA
+dse-teo-a;Desarrollo de Software Empresarial;7;4;A;teo;DSE
+rc-teo-a;Redes y Comunicacion;7;4;A;teo;Redes y C
+isiii-teo-a;Ingenieria de Software III;7;4;A;teo;IS III
+ia-teo-b;Inteligencia Artificial;7;4;B;teo;IA
+cg-teo-a;Computacion Grafica;7;4;A;teo;Comp G
+cg-lab-a;Computacion Grafica;7;4;A;lab;Comp G
+icc-teo-a;Investigacion en Ciencia de la Computacion;7;4;A;teo;Inv C C
+iala-lab-a;Inteligencia Artificial;7;4;A;lab;IA
+ia-lab-b;Inteligencia Artificial;7;4;B;lab;IA
+icc-teo-b;Investigacion en Ciencia de la Computacion;7;4;B;teo;Inv C C
+dse-lab-b;Desarrollo de Software Empresarial;7;4;B;lab;DSE
+dse-lab-a;Desarrollo de Software Empresarial;7;4;A;lab;DSE
+cg-lab-b;Computacion Grafica;7;4;B;lab;Comp G
+rc-lab-a;Redes y Comunicacion;7;4;A;lab;Redes y C
+rc-lab-b;Redes y Comunicacion;7;4;B;lab;Redes y C
+ia-lab-c;Inteligencia Artificial;7;4;C;lab;IA
+tia-teo-a;Topicos en Inteligencia Artificial;9;5;A;teo;Top IA
+tbd-lab-b;Topicos en Base de Datos;9;5;B;lab;Top BD
+tbd-lab-a;Topicos en Base de Datos;9;5;A;lab;Top BD
+tbd-teo-a;Topicos en Base de Datos;9;5;A;teo;Top BD
+cb-teo-a;Computacion Bioinspirada;9;5;A;teo;Comp Bio
+mf-teo-a;Metodos Formales;9;5;A;teo;Met Form
+cmb-lab-a;Computacion Molecular Biologica;9;5;A;lab;Comp M B
+tia-lab-a;Topicos en Inteligencia Artificial;9;5;A;lab;Top IA
+febtii-teo-a;F de Empresas de Base Tecnologica II;9;5;A;teo;Empresas B T
+tcg-teo-a;Topicos en Computacion Grafica;9;5;A;teo;Top Comp G
+pt-teo-a;Proyecto de Tesis;9;5;A;teo;Proy T
+pt-teo-b;Proyecto de Tesis;9;5;B;teo;Proy T
+cb-lab-a;Computacion Bioinspirada ;9;5;A;lab;Comp Bio
+cmb-teo-a;Computacion Molecular Biologica;9;5;A;teo;Comp M B

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Horarios UNSA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>document.getElementsByTagName("html")[0].className += " js";</script>
+         <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/ejecucion.js"></script>
+        <script src="js/mijs.js?v=1.8"></script>
+        <link rel="stylesheet" href="assets/css/style.css" id="linkestilo2">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css?v=1.4" id="linkestilo">
+    </head>
+    <body>
+        <header>
+            <!--<a id="btlogin">
+                LOGIN
+            </a>-->
+        </header>
+        <div id="cuerpo">
+            <h1>HORARIOS CS - UNSA</h1>
+            <div id="filtros">
+                    <div class="mid">
+                        <div class="cntr">
+                            <form id="actuaula">
+                                <label for="aula">Aula:</label>
+                                <select name="aula">
+                                    <option selected value="104">104</option>
+                                    <option value="205" >205</option>
+                                    <option value="301" >301</option>
+                                    <option value="302" >302</option>
+                                    <option value="303" >303</option>
+                                    <option value="304" >304</option>
+                                    <option value="305" >305</option>
+                                </select>
+                                <input class="botonenv" type="submit" value="Actualizar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div class="cntr">
+                            <form id="actuanio" method="post">
+                                <label for="anio">Año:</label>
+                                <select name="anio">
+                                    <option selected value="1">1ro</option>
+                                    <option value="2">2do</option>
+                                    <option value="3">3ro</option>
+                                    <option value="4">4to</option>
+                                    <option value="5">5to</option>
+                                </select>
+                                <input class="botonenv" type="submit" value="Actualizar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div class="cntr">
+                            <label for="semana">Semana:</label>
+                            <input type="date" id="semana" name="semana" min="2020-01-01">
+                        </div>
+                    </div>
+            </div>
+            <div id="horario">
+                
+                <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+                    <div class="cd-schedule__timeline">
+                      <ul>
+                        <li><span>07:00</span></li>
+                        <li><span>07:50</span></li>
+                        <li><span>08:50</span></li>
+                        <li><span>09:40</span></li>
+                        <li><span>10:40</span></li>
+                        <li><span>11:30</span></li>
+                        <li><span>12:20</span></li>
+                        <li><span>13:10</span></li>
+                        <li><span>14:00</span></li>
+                        <li><span>14:50</span></li>
+                        <li><span>15:50</span></li>
+                        <li><span>16:40</span></li>
+                        <li><span>17:40</span></li>
+                        <li><span>18:50</span></li>
+                        <li><span>19:20</span></li>
+                        <li><span>20:20</span></li>
+                        <li><span>21:00</span></li>
+                      </ul>
+                    </div> <!-- .cd-schedule__timeline -->
+
+                    <div class="cd-schedule__events" id="horariogeneral">
+                      <ul>
+                        <li class="cd-schedule__group">
+                          <div class="cd-schedule__top-info"><span>Lunes</span></div>
+
+                          <ul>
+                            <li class="cd-schedule__event">
+                              <a data-start="07:00" data-end="08:40" data-content="aede-lab-b" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">AEDE Lab B<br>304</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="08:50" data-end="10:30" data-content="ed-a" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">ED A<br>305</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="14:00" data-end="15:15"  data-content="ada-a" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">ADA A<br>302</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="12:20" data-end="14:00"  data-content="ada-lab-b" data-event="event-4" href="#0">
+                                <em class="cd-schedule__name">ADA Lab B<br>301</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="14:00" data-end="15:40"  data-content="aede-lab-a" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">AEDE Lab A<br>302</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="17:40" data-end="19:20"  data-content="comp-b" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">Compiladores B<br>301</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="cd-schedule__group">
+                          <div class="cd-schedule__top-info"><span>Martes</span></div>
+
+                          <ul>
+                            <li class="cd-schedule__event">
+                              <a data-start="14:00" data-end="15:40"  data-content="is1-b" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">IS B<br>303</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="15:50" data-end="17:30"  data-content="is1-lab-a" data-event="event-4" href="#0">
+                                <em class="cd-schedule__name">IS Lab A<br>205</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="17:40" data-end="19:20" data-content="aede-a" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">AEDE A<br>104</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="cd-schedule__group">
+                          <div class="cd-schedule__top-info"><span>Miercoles</span></div>
+
+                          <ul>
+                            <li class="cd-schedule__event">
+                              <a data-start="10:40" data-end="12:20" data-content="is1-a" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">IS A<br>304</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="12:20" data-end="14:00" data-content="is1-lab-b" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">IS Lab B<br>302</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="14:00" data-end="15:40"  data-content="ada-b" data-event="event-4" href="#0">
+                                <em class="cd-schedule__name">ADA B<br>301</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="15:50" data-end="17:30" data-content="ada-lab-a" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">ADA Lab A<br>304</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="17:40" data-end="19:20" data-content="comp-b" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">Compiladores B<br>303</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="cd-schedule__group">
+                          <div class="cd-schedule__top-info"><span>Jueves</span></div>
+
+                          <ul>
+                            <li class="cd-schedule__event">
+                              <a data-start="07:00" data-end="08:40" data-content="comp-a-ed-lab-b" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">Comp A 205- ED Lab B 304</em>
+                              </a>  
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="08:50" data-end="10:30" data-content="ed-a" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">ED A<br>303</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="10:40" data-end="12:20"  data-content="ada-a" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">ADA A<br>304</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="12:20" data-end="14:00" data-content="is1-a" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">IS A<br>204</em>
+                              </a>  
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="14:00" data-end="15:40" data-content="ada-b" data-event="event-4" href="#0">
+                                <em class="cd-schedule__name">ADA B<br>301</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="15:50" data-end="17:30" data-content="is1-b-ed-lab-a" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">IS B 302- ED Lab A 303</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="17:40" data-end="19:20"  data-content="ed-b" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">ED B<br>205</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="cd-schedule__group">
+                          <div class="cd-schedule__top-info"><span>Viernes</span></div>
+
+                          <ul>
+                            <li class="cd-schedule__event">
+                              <a data-start="07:00" data-end="08:40"  data-content="comp-a" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">Comp A<br>202</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="08:50" data-end="10:30" data-content="bd2-lab-b" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">BD II Lab B<br>301</em>
+                              </a>
+                            </li>
+
+                            <li class="cd-schedule__event">
+                              <a data-start="10:40" data-end="13:10"  data-content="bd2-a" data-event="event-3" href="#0">
+                                <em class="cd-schedule__name">BD II A<br>302</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="13:10" data-end="14:50"  data-content="aede-a" data-event="event-4" href="#0">
+                                <em class="cd-schedule__name">AEDE A<br>304</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="14:50" data-end="17:30"  data-content="bd2-b" data-event="event-2" href="#0">
+                                <em class="cd-schedule__name">BD II B<br>303</em>
+                              </a>
+                            </li>
+                            <li class="cd-schedule__event">
+                              <a data-start="17:40" data-end="19:20"  data-content="ed-b-bd2-lab-a" data-event="event-1" href="#0">
+                                <em class="cd-schedule__name">ED B 202 - BD II Lab A 205</em>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="cd-schedule-modal">
+                      <header class="cd-schedule-modal__header">
+                        <div class="cd-schedule-modal__content">
+                          <span class="cd-schedule-modal__date"></span>
+                          <h3 class="cd-schedule-modal__name"></h3>
+                        </div>
+
+                        <div class="cd-schedule-modal__header-bg"></div>
+                      </header>
+
+                      <div class="cd-schedule-modal__body">
+                        <div class="cd-schedule-modal__event-info"></div>
+                        <div class="cd-schedule-modal__body-bg"></div>
+                      </div>
+
+                      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+                    </div>
+
+                    <div class="cd-schedule__cover-layer"></div>
+                  </div>
+                
+            </div>
+        </div>
+        <footer>
+            
+        </footer>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
