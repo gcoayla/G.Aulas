@@ -1,3 +1,6 @@
+CREATE DATABASE horarios;
+USE horarios;
+
 DROP TABLE IF EXISTS Usuario;
     
 CREATE TABLE Usuario (
