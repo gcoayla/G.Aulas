@@ -1,5 +1,7 @@
 <?php 
-
+/***************************************************************/
+/* Controlador que realiza el login de alumnos o profesores */
+/***************************************************************/
 $mysqli = new mysqli("localhost","root","","horarios");
 
 if ($mysqli -> connect_errno) {

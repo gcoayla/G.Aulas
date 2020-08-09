@@ -1,3 +1,4 @@
+//Javascript de la pagina de profesores
 $(document).on('change', '#fecha', function() {
     if(this.checked) {
         $("#dateop").css("display", "none");

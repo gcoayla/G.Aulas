@@ -1,3 +1,4 @@
+//Javascript de la pagina de reservas
 function eliminar(codigo) {
             var parametros = {
                 "codigo" : codigo

@@ -1,12 +1,19 @@
 <?php 
-
+/***************************************************************/
+/* Controlador que carga los horarios por aula */
+/***************************************************************/
 $aula = $_POST['aula'];
 $fecha=$_COOKIE['fechaselec'];
 $dia   = substr($fecha,8,2);
 $mes = substr($fecha,5,2);
 $anio = substr($fecha,0,4);
 $semana = date('W',  mktime(0,0,0,$mes,$dia,$anio));
+
 $mysqli = new mysqli("localhost","root","","horarios");
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
 
 $diaSemana=date("w",mktime(0,0,0,$mes,$dia,$anio));
 if($diaSemana==0)
@@ -17,10 +24,7 @@ $miercoles=date("d",mktime(0,0,0,$mes,$dia-$diaSemana+3,$anio));
 $jueves=date("d",mktime(0,0,0,$mes,$dia-$diaSemana+4,$anio));
 $viernes=date("d",mktime(0,0,0,$mes,$dia-$diaSemana+5,$anio));
 
-if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
-}
+
 
 $qry = "select r.codigo_curso 'codCurso', r.hora_inicio 'hInicio', r.hora_fin 'hFin',r.dia 'dia', 
 			  c.nombre 'cursoNombre', c.tipo 'cursoTipo', c.grupo 'cursoGrupo',c.acronimo 'cursoAcro', 

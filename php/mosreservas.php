@@ -1,5 +1,7 @@
 <?php 
-
+/***************************************************************/
+/* Controlador que muestra las reservas realizadas por el profesor */
+/***************************************************************/
 $usuario = $_COOKIE['idsesion'];
 $mysqli = new mysqli("localhost","root","","horarios");
 

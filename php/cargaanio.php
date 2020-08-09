@@ -1,5 +1,7 @@
 <?php 
-
+/***************************************************************/
+/* Controlador que carga los horarios por año */
+/***************************************************************/
 $anho = $_POST['anio'];
 $fecha=$_COOKIE['fechaselec'];
 $dia   = substr($fecha,8,2);

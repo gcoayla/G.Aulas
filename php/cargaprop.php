@@ -1,5 +1,7 @@
 <?php 
-
+/***************************************************************/
+/* Controlador que carga en el horario los horarios propios de cada profesor */
+/***************************************************************/
 $usuario = $_COOKIE['idsesion'];
 $fecha=$_COOKIE['fechaselec'];
 $dia   = substr($fecha,8,2);

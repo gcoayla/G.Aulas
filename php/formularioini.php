@@ -1,5 +1,9 @@
 <?php 
 
+/***************************************************************/
+/* Controlador que inicializa el formulario de reserva según la id del profesor */
+/***************************************************************/
+
 $usuario = $_COOKIE['idsesion'];
 $mysqli = new mysqli("localhost","root","","horarios");
 

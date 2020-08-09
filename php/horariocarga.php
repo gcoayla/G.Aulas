@@ -1,4 +1,7 @@
 <?php 
+/***************************************************************/
+/* Controlador que inicializa la herramienta de visualización de horarios */
+/***************************************************************/
 
 $anho = 1;
 $fecha=$_COOKIE['fechaselec'];

@@ -1,3 +1,4 @@
+//Javascript de la pagina de login
 function leerCookie(nombre) {
          var lista = document.cookie.split(";");
          for (i in lista) {

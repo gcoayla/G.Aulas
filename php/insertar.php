@@ -1,4 +1,8 @@
 <?php 
+/***************************************************************/
+/* Controlador que inserta una nueva reserva realizada por el profesor, revisando primero si el horario no está ocupado */
+/***************************************************************/
+
 $usuario = $_COOKIE['idsesion'];
 $curso = $_POST['curso'];
 $aula = $_POST['aula'];

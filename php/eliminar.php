@@ -1,4 +1,8 @@
 <?php 
+/***************************************************************/
+/* Controlador que elimina una reserva */
+/***************************************************************/
+
     $resultado = $_POST['codigo']; 
     $mysqli = new mysqli("localhost","root","","horarios");
     if ($mysqli -> connect_errno) {
