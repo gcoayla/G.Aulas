@@ -75,7 +75,7 @@ if ($res){
     if($dia==1){
         echo  '<li class="cd-schedule__event">
 			  <a data-start="'.substr($hora_inicio, 0, 5).'" data-end="'.substr($hora_fin, 0, 5).'" data-content="'.$codigo_curso.'" data-event="event-'.$dia.'" href="#0">
-			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'<br>'. $aula_codigo.'</em>
+			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'-'. $aula_codigo.'</em>
 			  </a>
 			</li>';
     }
@@ -95,7 +95,7 @@ if ($res){
     if($dia==2){
         echo  '<li class="cd-schedule__event">
 			  <a data-start="'.substr($hora_inicio, 0, 5).'" data-end="'.substr($hora_fin, 0, 5).'" data-content="'.$codigo_curso.'" data-event="event-'.$dia.'" href="#0">
-			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'<br>'. $aula_codigo.'</em>
+			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'-'. $aula_codigo.'</em>
 			  </a>
 			</li>';
     }
@@ -115,7 +115,7 @@ if ($res){
     if($dia==3){
         echo  '<li class="cd-schedule__event">
 			  <a data-start="'.substr($hora_inicio, 0, 5).'" data-end="'.substr($hora_fin, 0, 5).'" data-content="'.$codigo_curso.'" data-event="event-'.$dia.'" href="#0">
-			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'<br>'. $aula_codigo.'</em>
+			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'-'. $aula_codigo.'</em>
 			  </a>
 			</li>';
     }
@@ -135,7 +135,7 @@ if ($res){
     if($dia==4){
         echo  '<li class="cd-schedule__event">
 			  <a data-start="'.substr($hora_inicio, 0, 5).'" data-end="'.substr($hora_fin, 0, 5).'" data-content="'.$codigo_curso.'" data-event="event-'.$dia.'" href="#0">
-			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'<br>'. $aula_codigo.'</em>
+			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'-'. $aula_codigo.'</em>
 			  </a>
 			</li>';
     }
@@ -155,7 +155,7 @@ if ($res){
     if($dia==5){
         echo  '<li class="cd-schedule__event">
 			  <a data-start="'.substr($hora_inicio, 0, 5).'" data-end="'.substr($hora_fin, 0, 5).'" data-content="'.$codigo_curso.'" data-event="event-1" href="#0">
-			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'<br>'. $aula_codigo.'</em>
+			    <em class="cd-schedule__name">'.$acronimo.' - '. $curso_tipo.' - '. $curso_grupo.'-'. $aula_codigo.'</em>
 			  </a>
 			</li>';
     }
